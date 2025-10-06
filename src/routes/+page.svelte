@@ -17,6 +17,12 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 	*/
+	import { pb } from '$lib/pb';
+	$effect(() => {
+		if (!pb.authStore.isValid) {
+			window.location.href = '/';
+		}
+	});
 </script>
 
 <svelte:head>
