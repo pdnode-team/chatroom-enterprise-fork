@@ -1,5 +1,5 @@
-// place files you want to import through the `$lib` alias in this folder.
-/*
+<script lang="ts">
+	/* 
 	Chatroom Enterprise Fork
     Pdnode ChatRooM Enterprise Fork (C) 2025  PDNODE LLC
 
@@ -17,3 +17,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 	*/
+</script>
+
+<svelte:head>
+	<title>Pdnode Chat</title>
+</svelte:head>
