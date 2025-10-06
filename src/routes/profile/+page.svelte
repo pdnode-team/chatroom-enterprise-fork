@@ -26,5 +26,10 @@
 </script>
 
 <svelte:head>
-	<title>Pdnode Chat</title>
+	<title>Pdnode Chat | Profile</title>
 </svelte:head>
+<div class="flex h-screen w-full items-center justify-center bg-gray-100">
+	<div class="w-full max-w-md rounded bg-white p-8 shadow-md">
+		<h1 class="mb-6 text-center text-2xl font-bold">Profile</h1>
+	</div>
+</div>
